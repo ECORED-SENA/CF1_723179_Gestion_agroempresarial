@@ -93,10 +93,10 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h5.mb-1 Perfil Y Prefactibilidad En Proyectos.
+                h5.mb-1 Perfil y prefactibilidad en proyectos.
                 p.text-small Amplíe algunos conceptos y generalidades de la fase de prefactibilidad.
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
 

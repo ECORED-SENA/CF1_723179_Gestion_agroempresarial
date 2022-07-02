@@ -73,34 +73,10 @@
         .titulo-sexto.color-acento-botones.mt-5
           h5 Tabla 1 
           span Tipos de proyectos de acuerdo con los criterios de clasificación
-        .tabla-a.color-secundario.mb-5 
-          table
-            thead
-              tr
-                th CRITERIO
-                th TIPO DE PROYECTO
-                th CARACTERÍSTICA
-            tbody
-              tr
-                td Financiación
-                td Celda 2
-                td Celda 3
+        img(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
 
-              tr
-                td Disciplina
-                td Celda 2
-                td Celda 3
-
-              tr
-                td Complejidad
-                td Celda 2
-                td Celda 3
-              tr
-                td Finalidad
-                td Celda 2
-                td Celda 3
         p <i> Nota. Tomada de economipedia.com</i>
-        .row.justify-content-center
+        .row.justify-content-center.mt-5
           .col-lg-8
             .row
               .col-lg-6

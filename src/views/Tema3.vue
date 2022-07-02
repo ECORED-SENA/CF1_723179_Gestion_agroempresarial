@@ -114,13 +114,13 @@
                 
                 p(numero="4" titulo="Población") Descripción de la población. 
                 p(numero="5" titulo="Convivencia") Convivencia y seguridad ciudadana. 
-                p(numero="6" titulo="Institucionalidad") Convivencia y seguridad ciudadana. 
+                p(numero="6" titulo="Institucionalidad") Presencia institucional.
         .col-lg-1        
         .col-lg-5
           img(src='@/assets/curso/tema3/8.svg' alt='AvatarTop')
         .col-lg-1
     #t_9_9.titulo-segundo.color-acento-contenido
-      h2  Análisis del entorno.
+      h2  Análisis del entorno
     p En este primer momento del diagnóstico, es importante delimitar la zona de estudio, la cual corresponde a una zona geográfica en particular (un barrio, una vereda, un municipio, una región, una ciudad). Al restringir el diagnóstico a una zona en particular, se puede ser mucho más eficiente en el proceso de captura y análisis de la información, con lo cual se obtiene un diagnóstico más acertado. 
     p Analice, con atención, los elementos principales que abarca el análisis del entorno, los cuales dan cuenta de las realidades que configuran el territorio:
     .row
@@ -195,28 +195,28 @@
         .tarjeta-avatar
           .tarjeta.color-acento-botones1
             .p-3
-              p.text-center.textcolor1 <strong>Servicios e infraestructura:</strong>
+              p.text-center.textcolor1 <strong>Servicios e infraestructura</strong>
               p.text-center Vías, red eléctrica, saneamiento básico, comunicación, agua potable, sistemas de riego, medios de transporte, costos de transporte. 
 
       .col-md-2.col-lg-2.mb-5.mb-lg-2
         .tarjeta-avatar
           .tarjeta.color-acento-botones1
             .p-4
-              p.text-center.textcolor1 <strong>Socioculturales:</strong>
+              p.text-center.textcolor1 <strong>Socioculturales</strong>
               p.text-center Usos y costumbres, tradiciones, organizaciones comunitarias, liderazgos, participación ciudadana, agremiaciones.
 
       .col-md-2.col-lg-2.mb-5.mb-lg-2
         .tarjeta-avatar
           .tarjeta.color-acento-botones1
             .p-3
-              p.text-center.textcolor1 <strong>Seguridad y convivencia:</strong>
+              p.text-center.textcolor1 <strong>Seguridad y convivencia</strong>
               p.text-center Presencia de actores armados, inseguridad, violencia, violencia doméstica, respuesta institucional, redes de apoyo.
 
       .col-md-2.col-lg-2.mb-5.mb-lg-2
         .tarjeta-avatar
           .tarjeta.color-acento-botones1
             .p-2
-              p.text-center.textcolor1 <strong>Articulación interinstitucional:</strong>
+              p.text-center.textcolor1 <strong>Articulación interinstitucional</strong>
               p.text-center Presencia institucional, proyectos y programas desarrollados, cooperación internacional, convenios y contratos, gobernanza. 
     p.mt-4 Para que la información recopilada en el diagnóstico sea de utilidad para el proceso de estructuración del proyecto, es necesario que esta sea principalmente de tipo cuantitativo, de modo que sea más sencillo agrupar datos, obtener estadísticas y observar tendencias que den sustento a las observaciones realizadas por parte del equipo estructurador. 
     .row.justify-content-center.mt-5
@@ -247,12 +247,12 @@
             P Para que el análisis del sector productivo aporte información relevante para el proceso de formulación del proyecto, debe contener elementos como:
 
           .tarjeta.color-acento-botones.p-3(x="0%" y="32%" numero="+")
-            .h5.mb-2 1. Productividad del Sector
-            p Si el análisis es del sector cafetero, la productividad indicaría el comportamiento anual de las exportaciones, la productividad por hectárea y la rentabilidad de la explotación, entre otros aspectos. 
+            .h5.mb-2 1. Productividad del sector
+            p Se deben revisar, de manera general, los volúmenes de producción en el contexto nacional, regional y/o municipal, para, de esta forma, establecer qué aspectos pueden favorecer o limitar su desarrollo. Esta informacion que puede proceder de fuentes primarias (encuestas, sondeos, entrevistas) o  de fuentes secundarias (estudios, tesis de grado, artículos, cofras oficiales), debe dar cuenta del estado actual del sector en términos económicos y monetarios.
 
           .tarjeta.color-acento-botones.p-3(x="0%" y="53%" numero="+")
             .h5.mb-2 2. Áreas destinadas a la actividad
-            p Hace referencia al número de unidades productivas y sus puntos de ubicación, alcances, entre otras.
+            p Es importante establecer dónde se lleva a cabo la actividad productiva o en qué área geográfica este sector en particular tiene mayor participación. Esto da una lectura general de las perspectivas y potencialidades de la actividad productiva.
           .tarjeta.color-acento-botones.p-3(x="0%" y="75%" numero="+")
             .h5.mb-2 3. Empleos generados
             p Un indicador de la importancia del sector productivo y su posición dentro de la economía nacional es la identificación de su aporte en la generación de empleo, bien sea de forma directa o indirecta, para lo cual, es importante conocer los encadenamientos productivos. 
@@ -312,7 +312,7 @@
         .col-lg-5.tt
           img(src='@/assets/curso/tema3/18.svg', alt='Texto que describa la imagen')
       #t_9_9.titulo-segundo.color-acento-contenido.mt-5
-        h2  Identificar el problema. 
+        h2  Identificar el problema
       p Aparentemente, identificar un problema es una tarea sencilla, pues en el día a día cualquier persona tiene situaciones difíciles a las cuales enfrentarse, lo cual, necesariamente, requiere identificarlas y actuar de acuerdo con lo registrado en sus observaciones. Sin embargo, delimitar un problema es un ejercicio mucho más complejo de lo que comúnmente se cree, debido a que a menudo se confunden sus causas con sus consecuencias.
       p Por fortuna, en el proceso de formulación de proyectos, existen herramientas que dirigen el trabajo y facilitan la identificación y delimitación de los problemas, con lo cual es posible, a través del proyecto, atender las situaciones (obstáculos) y facilitar el tránsito hacia una situación potencial o deseada. 
       p Independientemente del tipo de diagnóstico que se realice, es necesario que, en la identificación del problema, se respondan las siguientes preguntas:
@@ -321,13 +321,13 @@
           .row.mb-5
             .col-md-12.mb-5.mb-md-0
               LineaTiempoD.color-primario
-                p(numero="1" titulo="¿En qué consiste el problema?") Identificación y descripción de las características físicas del territorio.
+                p(numero="1" titulo="¿En qué consiste el problema?") Se debe describir qué obstáculos se interponen para llegar a la situación deseada.
                 
-                p(numero="2" titulo="¿Cómo se evidencia el problema?") Análisis de las características socioeconómicas del territorio. 
+                p(numero="2" titulo="¿Cómo se evidencia el problema?") Establecer cómo se hace visible el problema dentro de la comunidad o zona afectada.
                 
                 p(numero="3" titulo="¿Qué causa el problema?") Establecer las causas inmediatas, aquello que lo produce.
                 
-                p(numero="4" titulo="¿Qué factores agravan la situación?") Descripción de la población. 
+                p(numero="4" titulo="¿Qué factores agravan la situación?") Qué elementos, de alguna u otra forma, hacen que la situación empeore.
         .col-lg-1
         .col-lg-4
           img(src='@/assets/curso/tema3/19.svg' alt='AvatarTop')
@@ -386,8 +386,8 @@
               i.fas.fa-angle-right.color-acento-contenido
               p No lograr los objetivos del proyecto es muy grave, ya que implica una mala utilización de los recursos y el incumplimiento de los compromisos adquiridos con las comunidades. 
     #t_9_9.titulo-segundo.color-acento-contenido.mt-5
-      h2  Árbol de problemas.
-    p El árbol de problemas trata de la identificación del problema central y de todos los elementos que, de una u otra forma, se relacionan con este (causas y efectos). Se usa para establecer qué está originando la situación (causas directas e indirectas) y la manera como dicha situación repercute en otros niveles de la comunidad o el área geográfica estudiada (efectos directos e indirectos).
+      h2  Árbol de problemas
+    p El árbol de problemas trata de <strong>la identificación del problema central</strong> y de todos los elementos que, de una u otra forma, se relacionan con este (causas y efectos). Se usa para establecer qué está originando la situación (causas directas e indirectas) y la manera como dicha situación repercute en otros niveles de la comunidad o el área geográfica estudiada (efectos directos e indirectos).
     .titulo-sexto.color-acento-botones.mt-5
       h5 Figura 2
       span  Estructura del árbol de problemas para elaboración de proyectos
@@ -405,50 +405,29 @@
             img(src='@/assets/curso/tema3/21.svg' alt='AvatarTop')
     .titulo-sexto.color-acento-botones.mt-5
       h5 “¿Cómo se diseña este árbol?”.
-    .tabla-a.color-secundario.mb-5 
-          table
-            thead
-              tr
-                th Efecto indirecto
-                th Bajo nivel de ingresos, por venta de café mojado y de mala calidad.<br>Pérdida de oportunidades de ingresos de los productores.
-
-            tbody
-              tr
-                td Efecto directo
-                td Celda 2
-
-              tr
-                td PROBLEMA CENTRAL
-                td Celda 2
-
-              tr
-                td Causa directa
-                td Celda 2
-              tr
-                td Causa indirecta
-                td Celda 2
-    .row.justify-content-center
+    img(src='@/assets/curso/tema3/45.svg' alt='AvatarTop')
+    .row.justify-content-center.mt-5
       .col-lg-7.mt-5
         p En la construcción del árbol de problemas, es fundamental reflexionar sobre:
         ul.lista-ul.mt-4
           li.mb-0 
             i.fas.fa-check.color-acento-contenido
-            p Es necesario empezar a establecer sus causas y sus consecuencias.
+            p <Strong>¿El problema está bien expresado?</strong> Para que el problema este bien expresado, debe presentarse como una situación negativa.
           li.mb-0 
             i.fas.fa-check.color-acento-contenido
-            p ¿A quiénes afecta? Analizar si afecta solo a un sector de la población, a un número determinado de personas o a una comunidad. 
+            p <Strong>¿A quiénes afecta?</Strong> Analizar si afecta solo a un sector de la población, a un número determinado de personas o a una comunidad. 
           li.mb-0 
             i.fas.fa-check.color-acento-contenido
-            p ¿Cómo afecta? Definir cómo el problema genera los impactos mencionados. 
+            p <Strong>¿Cómo afecta?</Strong> Definir cómo el problema genera los impactos mencionados. 
           li.mb-0 
             i.fas.fa-check.color-acento-contenido
-            p ¿Desde cuándo afecta? Establecer el tiempo que esa situación en particular lleva en el territorio. 
+            p <Strong>¿Desde cuándo afecta?</Strong> Establecer el tiempo que esa situación en particular lleva en el territorio. 
           li.mb-0 
             i.fas.fa-check.color-acento-contenido
-            p ¿Es una situación modificable? Revisar si la problemática se puede revertir o si se pueden reducir sus impactos. 
+            p <Strong>¿Es una situación modificable?</Strong> Revisar si la problemática se puede revertir o si se pueden reducir sus impactos. 
           li.mb-0 
             i.fas.fa-check.color-acento-contenido
-            p ¿Qué interrelación tiene con otros problemas? Identificar relaciones de causalidad.  
+            p <Strong>¿Qué interrelación tiene con otros problemas?</Strong> Identificar relaciones de causalidad.  
       .col-lg-5
         img(src='@/assets/curso/tema3/22.svg' alt='AvatarTop')
     .row.justify-content-center.mt-5
@@ -1020,14 +999,14 @@ export default {
       {
         titulo: 'Errores en la construcción de objetivos generales',
         texto:
-          'Errores en la construcción de objetivos generales <br> Incluir alternativas de solución, por ejemplo: "mediante", "a través de", "por medio de". <br> Confundir el objetivo general con algún producto que se desea entregar, por ejemplo: "construcción de beneficiaderos", "entrega de despulpadoras". <br> Describir el objetivo como una acción parcial o desarticulada, por ejemplo: "adquirir 1.000 bultos de fertilizante". <br>Incluir los fines o alcances del proyecto: "para mejorar la calidad de vida, para mejorar la productividad". ',
+          'Errores en la construcción de objetivos generales <br> - Incluir alternativas de solución, por ejemplo: "mediante", "a través de", "por medio de". <br> - Confundir el objetivo general con algún producto que se desea entregar, por ejemplo: "construcción de beneficiaderos", "entrega de despulpadoras". <br> - Describir el objetivo como una acción parcial o desarticulada, por ejemplo: "adquirir 1.000 bultos de fertilizante". <br>- Incluir los fines o alcances del proyecto: "para mejorar la calidad de vida, para mejorar la productividad". ',
         imagen: require('@/assets/curso/tema3/26.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
         titulo: 'Errores en la construcción de objetivos específicos',
         texto:
-          'Contar con un solo objetivo específico. <br> Describir los objetivos específicos de manera demasiado amplia. <br> Confundir los objetivos específicos con las actividades del proyecto.<br> Utilizar verbos operativos para describir los objetivos: adquirir, contratar.',
+          '- Contar con un solo objetivo específico. <br> - Describir los objetivos específicos de manera demasiado amplia. <br> - Confundir los objetivos específicos con las actividades del proyecto.<br> - Utilizar verbos operativos para describir los objetivos: adquirir, contratar.',
         imagen: require('@/assets/curso/tema3/27.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
