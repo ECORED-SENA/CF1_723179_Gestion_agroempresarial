@@ -226,7 +226,7 @@
           p La información descriptiva es igualmente importante, sin embargo, cada una de las afirmaciones que se haga en el documento, en lo posible, debe tener un respaldo estadístico. 
     
     #t_9_9.titulo-segundo.color-acento-contenido.mt-5
-      h2   Análisis del sector productivo.    
+      h2   Análisis del sector productivo  
     .row
       .col-lg-7
         p Otro de los componentes importantes del diagnóstico es el análisis de sector productivo, el cual se enfoca en la descripción de las características y componentes específicos de la actividad económica en la cual tiene lugar la iniciativa de proyecto. 
@@ -269,7 +269,7 @@
             .h5.mb-2 4. Volúmenes de comercialización
             p Este dato entrega una medida de los recursos anuales que se transan alrededor del sector productivo analizado, lo cual se puede emplear para determinar su importancia dentro de la economía nacional, regional o municipal. 
     #t_9_9.titulo-segundo.color-acento-contenido.mt-5
-      h2  Recolección de información.
+      h2  Recolección de información
     p La recolección de información es una de las etapas más importantes del proceso de diagnóstico, debido a que la calidad del producto final, el planteamiento de los problemas y las alternativas de solución dependen del tipo de información que se recoja, de sus características y de la forma como se organizan los datos para su posterior análisis. 
     p Para la recolección de información diagnóstica, en la formulación de proyectos, es necesario tener en cuenta los elementos que se describen a continuación:
     SlyderB.mb-5.mt-5.b.p-4(:datos="datosSlyder")
