@@ -286,7 +286,7 @@
           p Le presentamos las principales utilidades del procesamiento de datos; explore el recurso que se muestra a continuación y procure llevar registro de lo más destacado en su libreta personal de apuntes:
       figure.mb-5.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/8K7MRIF0G1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       separador
       #t_3_2.titulo-segundo.color-acento-contenido.mt-5
         h2  3.2  Planteamiento del problema o necesidad
