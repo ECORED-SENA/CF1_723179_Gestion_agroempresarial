@@ -14,39 +14,57 @@
           p.mt-4 Analice con atención la siguiente gráfica; asimile más y mejor el ciclo de vida de un proyecto, identificando sus tres grandes fases:
         .col-lg-6
           img(src='@/assets/curso/tema2/1.svg', alt='Texto que describa la imagen')
-      TabsC.color-acento-contenido
-        .py-3.py-md-4(titulo="<strong>Preinversión</strong>")
-          .row.justify-content-center
+      TabsC.color-acento-contenido.mt-5
+        .py-3.py-md-4.bac1(titulo="<strong>Preinversión</strong>")
+          .row.justify-content-center.bac
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img(src='@/assets/curso/tema2/ico1.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i1.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Idea
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img(src='@/assets/curso/tema2/ico2.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i2.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Perfil
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img.wii2(src='@/assets/curso/tema2/ico3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i3.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Prefactibilidad
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img.wii2(src='@/assets/curso/tema2/ico4.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i4.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Factibilidad
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img.wii2(src='@/assets/curso/tema2/ico5.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i5.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Diseño
 
         .py-3.py-md-4(titulo="<strong>Inversión</strong>")
-          .row.justify-content-center
+          .row.justify-content-center.bac
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img(src='@/assets/curso/tema2/ico6.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i6.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Inversión
+            .col-md-1
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img(src='@/assets/curso/tema2/ico7.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i7.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Ejecución
+            .col-md-1
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img.wii2(src='@/assets/curso/tema2/ico8.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/i8.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Producción de bienes y servicios
+            .col-md-1
             .col-md-2.mb-4.mb-md-0.wii.mt-5
-              img.wii2(src='@/assets/curso/tema2/ico9.svg', alt='Texto que describa la imagen')
-
+              img(src='@/assets/curso/tema2/i9.svg', alt='Texto que describa la imagen')
+              .row
+                p.text-center.mt-3.b1 Acompañamiento físico y financiero
         .py-3.py-md-4(titulo="<strong>Operación</strong>")
-          .row.justify-content-center
+          .row.justify-content-center.bac
             .col-md-6.mb-4.mb-md-0
               img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')
 
             .col-md-3.mt-5
-              .row.mt-5
-              .row.mt-5
               p.s2.text-center.p-2.mt-5 La población usa bienes y servicio
               p.s2.text-center.p-3 Se determina el impacto
       .row.justify-content-center.mt-5
@@ -80,13 +98,13 @@
       .row.justify-content-center.mt-5
         .col-lg-8
           .cajon.color-acento-contenido.p-4.mb-4
-            .h5 ¡Atención!
+            .h4 ¡Atención!
             p La Alcaldía Mayor de Bogotá, a través de su Secretaría de Planeación (2018), propone un modelo que recoge conceptos de los dos esquemas expuestos anteriormente, con el cual se tiene una visión mucho más amplia de lo que concierne al ciclo de vida de un proyecto.
       
       p Con base en la información desarrollada hasta este punto, le ampliamos las etapas que se pueden definir para el ciclo de vida de un proyecto. Analice con atención cada etapa y sus fases, y procure llevar registro de lo más destacado en su libreta personal de apuntes:             
       SlyderB.mb-5.mt-5(:datos="datosSlyder")
       
-      .tarjeta.color-acento-contenido.p-3.mb-5.mt-5
+      .tarjeta.color-acento-contenido.p-4.mb-5.mt-5
         .row.justify-content-around.align-items-center
           .col-12.col-sm-12.col-lg-12.wix.mt-4.mb-4
             img(src="@/assets/curso/tema2/ico10.svg")
@@ -95,9 +113,9 @@
               .col.mb-3.mb-sm-0
                 h5.mb-1 Perfil y prefactibilidad en proyectos.
                 p.text-small Amplíe algunos conceptos y generalidades de la fase de prefactibilidad.
-              .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank")
-                  span Descargar
+              .col-sm-auto.caq
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo1.pdf')" target="_blank")
+                  span.caq Descargar
                   i.fas.fa-file-download
 
 </template>
@@ -172,4 +190,9 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.cajon.color-acento-contenido
+  background-color: rgba(206,211,113,0.25)
+.slyder-b.mb-5.mt-5 .col-lg-8
+  width: 100%
+</style>

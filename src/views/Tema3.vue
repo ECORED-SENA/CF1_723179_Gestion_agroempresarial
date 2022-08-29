@@ -51,19 +51,19 @@
           .row.justify-content-center.mb-3
             .col-lg-12
               .cajon.color-acento-contenido.p-4.mb-4
-                .h5 Matriz de Marco Lógico
+                .h4 Matriz de Marco Lógico
                 p Se conoce como MML y es la teoría de proyectos propuesta por el Departamento de Planeación Nacional (DNP), usada ampliamente en el mundo entero, desde los años 70, cuando surgió en los Estados Unidos.
               
           .row.justify-content-center.mb-3
             .col-lg-12
               .cajon.color-acento-contenido.p-4.mb-4
-                .h5 Utilidad de la MML
+                .h4 Utilidad de la MML
                 p Esta metodología permite presentar de forma sistemática y lógica los objetivos de un proyecto o programa y su implementación refleja las condiciones de causalidad que se dan entre estos.
               
           .row.justify-content-center.mb-3
             .col-lg-12
               .cajon.color-acento-contenido.p-4.mb-4
-                .h5 Beneficios de la MML
+                .h4 Beneficios de la MML
                 p Esta metodología facilita la verificación del alcance de los objetivos e identifica los riesgos que puedan influir en el éxito del proyecto.
               
       .col-lg-5.as
@@ -123,7 +123,7 @@
       h2  Análisis del entorno
     p En este primer momento del diagnóstico, es importante delimitar la zona de estudio, la cual corresponde a una zona geográfica en particular (un barrio, una vereda, un municipio, una región, una ciudad). Al restringir el diagnóstico a una zona en particular, se puede ser mucho más eficiente en el proceso de captura y análisis de la información, con lo cual se obtiene un diagnóstico más acertado. 
     p Analice, con atención, los elementos principales que abarca el análisis del entorno, los cuales dan cuenta de las realidades que configuran el territorio:
-    .row
+    .row.justify-content-center.au
       .col-md-2.col-lg-2.mb-5.mb-lg-2
         .tarjeta-avatar
           .tarjeta.color-secundario
@@ -176,7 +176,7 @@
                 img(src='@/assets/curso/tema3/ico6.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-4 <strong>Articulación interinstitucional</strong>
-    .row
+    .row.justify-content-center.au
       .col-md-2.col-lg-2.mb-5.mb-lg-2
         .tarjeta-avatar
           .tarjeta.color-acento-botones1
@@ -222,7 +222,7 @@
     .row.justify-content-center.mt-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
-          .h5 Tenga en cuenta
+          .h4 Tenga en cuenta
           p La información descriptiva es igualmente importante, sin embargo, cada una de las afirmaciones que se haga en el documento, en lo posible, debe tener un respaldo estadístico. 
     
     #t_9_9.titulo-segundo.color-acento-contenido.mt-5
@@ -281,7 +281,7 @@
           .row.justify-content-center
             .col-lg-9
               img(src='@/assets/curso/tema3/17.svg', alt='Texto que describa la imagen')
-        .col-lg-8
+        .col-lg-8.mt-2
           p Las herramientas para el procesamiento de datos son muy diversas y sus aplicaciones son casi que ilimitadas. Dependiendo de los objetivos del estudio o del análisis, existen herramientas casi que a la medida de cada necesidad, por medio de las cuales es posible procesar los datos y obtener como resultado tendencias, reportes, comparaciones y salidas, que facilitan la comprensión de la realidad y la interpretación de las dinámicas que se dan en el territorio.
           p Le presentamos las principales utilidades del procesamiento de datos; explore el recurso que se muestra a continuación y procure llevar registro de lo más destacado en su libreta personal de apuntes:
       figure.mb-5.mt-5
@@ -362,7 +362,7 @@
 
         .col-lg-1
         .col-lg-6
-          p Una vez se ha identificado el problema central, tenga en cuenta que:
+          p.mt-2 Una vez se ha identificado el problema central, tenga en cuenta que:
           ul.lista-ul.mt-4
             li.mb-0 
               i.fas.fa-angle-right.color-acento-contenido
@@ -395,10 +395,17 @@
     p.mt-5 Con la elaboración del árbol de problemas, se allana el camino para la identificación de alternativas de solución a la problemática planteada. 
     .row.mt-5
       .col-lg-7
-        h4.mt-5 ¿Por qué árbol de problemas?
-        p El árbol de problemas se denomina de esta manera debido a que existen múltiples ramificaciones que representan las relaciones entre las causas (pensadas como raíces del problema) y sus efectos (entendidas como ramas superiores). 
-        h4.mt-5 ¿Cómo se diseña este árbol?
-        p En el análisis de situaciones reales, es posible que un problema central tenga varias causas directas y que estas, a su vez, tengan una misma causa indirecta, por lo que, en cuanto a la forma como se construye el árbol, no hay un diseño predeterminado, sino que, por el contrario, este es un reflejo de las condiciones particulares de cada entorno analizado.
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+            h4 ¿Por qué árbol de problemas?
+          p El árbol de problemas se denomina de esta manera debido a que existen múltiples ramificaciones que representan las relaciones entre las causas (pensadas como raíces del problema) y sus efectos (entendidas como ramas superiores). 
+        ol.lista-ol--cuadro.mt-5
+          li 
+            .lista-ol--cuadro__vineta
+            h4 ¿Cómo se diseña este árbol?
+          p En el análisis de situaciones reales, es posible que un problema central tenga varias causas directas y que estas, a su vez, tengan una misma causa indirecta, por lo que, en cuanto a la forma como se construye el árbol, no hay un diseño predeterminado, sino que, por el contrario, este es un reflejo de las condiciones particulares de cada entorno analizado.
+
       .col-lg-5
         .row.justify-content-center
           .col-lg-10
@@ -433,7 +440,7 @@
     .row.justify-content-center.mt-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
-          .h5 ¡Atención!
+          .h4 ¡Atención!
           p La construcción del árbol de problemas se realiza con el fin de identificar las causas del problema central, para, de esta forma, acceder a ubicar las mejores alternativas de solución.
     separador
     #t_3_3.titulo-segundo.color-acento-contenido
@@ -455,7 +462,7 @@
               .tarjeta.color-secundario
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/tema3/ico11.svg' alt='AvatarTop')
+                    img.imaq(src='@/assets/curso/tema3/ico11.svg' alt='AvatarTop')
                 .p-4
                   p.text-center.textcolor1.mt-5 <strong>¿En qué aspectos mejora la situación actual?</strong>
 
@@ -464,7 +471,7 @@
               .tarjeta.color-secundario
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/tema3/ico12.svg' alt='AvatarTop')
+                    img.imaq(src='@/assets/curso/tema3/ico12.svg' alt='AvatarTop')
                 .p-4
                   p.text-center.textcolor1.mt-5 <strong>¿Por qué se considera que esa es la solución pertinente?</strong>
 
@@ -473,7 +480,7 @@
               .tarjeta.color-secundario
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/tema3/ico13.svg' alt='AvatarTop')
+                    img.imaq(src='@/assets/curso/tema3/ico13.svg' alt='AvatarTop')
                 .p-4
                   p.text-center.textcolor1.mt-5 <strong>¿Cuál es el valor agregado o aporte del proyecto?</strong>
         .row
@@ -527,7 +534,7 @@
     .titulo-sexto.color-acento-botones.mt-5
       h5 Tabla 4
       span Ejemplo de formulación de alternativas de solución de problemas
-    .tabla-a.color-secundario.mb-5 
+    .tabla-a.color-secundario.mb-5
       table
         thead
           tr
@@ -558,19 +565,19 @@
           .row.justify-content-center.mb-3
             .col-lg-12
               .cajon.color-acento-contenido.p-4.mb-4
-                .h5 ¿Por qué?
+                .h4 ¿Por qué?
                 p Al momento de seleccionar la alternativa, es importante señalar por qué se escoge esa y no otra de las que se tenían perfiladas en el análisis inicial, teniendo en cuenta razones técnicas, operativas, financieras o los riesgos asociados con su implementación.
               
           .row.justify-content-center.mb-3
             .col-lg-12
               .cajon.color-acento-contenido.p-4.mb-4
-                .h5 Explicación
+                .h4 Explicación
                 p Elegida una de las alternativas, se procede con su explicación, que es el espacio donde se exponen los detalles relacionados con su implementación, los alcances, las razones que se tuvieron en cuenta para su elección y qué elementos presentes en el diagnóstico respaldan esta decisión.
               
           .row.justify-content-center.mb-3
             .col-lg-12
               .cajon.color-acento-contenido.p-4.mb-4
-                .h5 Indicar estrategias
+                .h4 Indicar estrategias
                 p Posteriormente, se expone un resumen de la alternativa, indicando las estrategias que se tendrán en cuenta para la solución del problema o la satisfacción de las necesidades de las comunidades con la ejecución del proyecto. 
               
       .col-lg-5.as
@@ -580,7 +587,7 @@
       .row.mt-5
         .col-lg-6
           img(src='@/assets/curso/tema3/30.svg' alt='AvatarTop')
-        .col-lg-6
+        .col-lg-6.mt-2
           .row.mb-5
             .col-md-12.mb-5.mb-md-0
               LineaTiempoD.color-primario
@@ -603,20 +610,20 @@
       .col-lg-6
         .row
           .col-md-6.col-lg-6.mb-5.mb-lg-6
-            .tarjeta-avatar.aa
+            .tarjeta-avatar.aa1
               .tarjeta.color-secundario
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/tema3/ico14.svg' alt='AvatarTop')
+                    img.imaq(src='@/assets/curso/tema3/ico14.svg' alt='AvatarTop')
                 .p-4
                   p.text-center.textcolor1.mt-5 <strong>Logros específicos</strong>
 
           .col-md-6.col-lg-6.mb-5.mb-lg-6
-            .tarjeta-avatar.aa
+            .tarjeta-avatar.aa1
               .tarjeta.color-secundario
                 .row.justify-content-center
                   .col-lg-6
-                    img(src='@/assets/curso/tema3/ico15.svg' alt='AvatarTop')
+                    img.imaq(src='@/assets/curso/tema3/ico15.svg' alt='AvatarTop')
                 .p-4
                   p.text-center.textcolor1.mt-5 <strong>Detallar actividades</strong>
         .row
@@ -644,7 +651,7 @@
     .row.justify-content-center.mt-5
       .col-lg-8
         .cajon.color-acento-contenido.p-4.mb-4
-          .h5 Utilidad de la matriz
+          .h4 Utilidad de la matriz
           .row
             .col-lg-10
               ul.lista-ul.mt-4
@@ -665,7 +672,7 @@
                   i.fas.fa-angle-right.color-acento-contenido
                   p.mb-0 Establece el horizonte de tiempo para desarrollar las actividades propuestas. 
             .col-lg-2
-              img(src='@/assets/curso/tema3/ico16.svg' alt='AvatarTop')
+              img.imaq(src='@/assets/curso/tema3/ico16.svg' alt='AvatarTop')
     p.mt-5 Junto con la definición de las actividades, es necesario elaborar un cronograma de actividades por medio del cual sea posible realizar, posteriormente, el seguimiento a la ejecución. El modelo de cronograma más empleado en la gestión de proyectos es el diagrama de Gantt (Unesco 2016), el cual consiste en un cuadro de doble entrada en cuya columna izquierda se anotan las actividades en secuencia temporal y a la derecha se dibujan unas barras que representan su duración, como se presenta en el siguiente ejemplo:
     .row.bg5  
       .titulo-sexto.color-acento-botones.mt-5
@@ -696,7 +703,7 @@
           .row.texto11
             .col-lg-12.texto1.p-3        
               p De acuerdo con Mondragón (2017), el presupuesto es el instrumento que determina los costos totales del proyecto y prevé los ingresos financieros para cubrirlos. El presupuesto debe indicar la cuantía de los gastos originados por los recursos necesarios para desarrollar el proyecto y las fuentes de financiación previstas.
-        .col-lg-5   
+        .col-lg-5.mt-2 
           img(src='@/assets/curso/tema3/34.png' alt='AvatarTop')
       p.mt-5 Para la estimación del presupuesto de un proyecto, es necesario:
       .row.justify-content-center
@@ -704,19 +711,19 @@
           .row
             .col-md-6.col-lg-6.mb-5.mb-lg-6
               .tarjeta-avatar.aa
-                .tarjeta.color-secundario1
+                .tarjeta.color-secundario1.sombra
                   .row.justify-content-center
                     .col-lg-6
-                      img(src='@/assets/curso/tema3/ico17.svg' alt='AvatarTop')
+                      img.imaq(src='@/assets/curso/tema3/ico17.svg' alt='AvatarTop')
                   .p-4
                     p.text-center.textcolor1.text-center <strong>Analizar:</strong> cada una de las actividades propuestas.
 
             .col-md-6.col-lg-6.mb-5.mb-lg-6
               .tarjeta-avatar.aa
-                .tarjeta.color-secundario1
+                .tarjeta.color-secundario1.sombra
                   .row.justify-content-center
                     .col-lg-6
-                      img(src='@/assets/curso/tema3/ico18.svg' alt='AvatarTop')
+                      img.imaq(src='@/assets/curso/tema3/ico18.svg' alt='AvatarTop')
                   .p-4
                     p.text-center.textcolor1.text-center <strong>Estimar:</strong> los costos en los que se debe incurrir para poder realizarlas.
       p Para el ejercicio de planificación, se puede emplear un formato diseñado para tal efecto, como el que se muestra a continuación:
@@ -727,11 +734,11 @@
       .row.justify-content-center.mb-3.mt-5
         .col-lg-8
           .cajon.color-acento-contenido.p-4.mb-4
-            .h5 ¡Importante!
+            .h4 ¡Importante!
             p Para establecer el presupuesto, es necesario identificar el número de unidades productivas, familias, personas o empresas por atender con el proyecto, para que, de esta forma, se estimen los costos para cada una de ellas y, a partir de allí, se establezcan los costos totales de la iniciativa.
       p Dentro de un proyecto, los tipos de costos que se analizan son los siguientes:    
       SlyderB.mb-5.mt-5.b.p-4(:datos="datosSlyder3")
-      .tarjeta.color-acento-contenido.p-3.mb-5.mt-5
+      .tarjeta.color-acento-contenido.p-4.mb-5.mt-5.sombra
         .row.justify-content-around.align-items-center
           .col-12.col-sm-12.col-lg-12.wix.mt-4.mb-4
             img(src="@/assets/curso/tema2/ico10.svg")
@@ -834,12 +841,12 @@
             .row
               .col-lg-6
                 .cajon.color-acento-contenido.p-4.mb-4
-                  .h5 ¡ATENCIÓN!
+                  .h4 ¡ATENCIÓN!
                   p Tras la definición de los indicadores, es importante establecer los medios de verificación, los cuales consisten en las fuentes de información de acceso público, donde se presenta el valor de los indicadores o, al menos, los datos necesarios para su cálculo.
               
               .col-lg-6
                 .cajon.color-acento-contenido.p-4.mb-4
-                  .h5 ¡IMPORTANTE!
+                  .h4 ¡IMPORTANTE!
                   p.mb-5 Estos pueden corresponder a información primaria (encuestas, entrevistas, visitas, registros contables, informes de auditoría) o a fuentes secundarias (estadísticas, estudios, informes, publicaciones, entre otras).
       p Analice el ejemplo que se presenta en el siguiente esquema:           
       .titulo-sexto.color-acento-botones.mt-5
@@ -881,7 +888,7 @@
       .row.mt-5
         .col-lg-6
           img(src='@/assets/curso/tema3/44.svg' alt='AvatarTop')
-        .col-lg-6
+        .col-lg-6.mt-2
           .row.mb-5
             .col-md-12.mb-5.mb-md-0
               LineaTiempoD.color-primario
@@ -1059,4 +1066,17 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #D2E1F1!important
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #F8F8F8!important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #DDEDCA!important
+.cajon.color-acento-contenido
+  background-color: rgba(206,211,113,0.25)
+.tabla-a thead
+  border-color:#CED371!important
+.tarjeta.color-secundario
+  background-color: #E1E4A8
+</style>

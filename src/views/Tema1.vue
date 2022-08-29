@@ -12,10 +12,32 @@
       img(src='@/assets/curso/tema1/i1.png', alt='Texto que describa la imagen')
       .row.justify-content-center.mt-5
         .col-lg-6
+        
           p Con la planificación, el análisis y la identificación de los recursos que se requieren:
-          img.mt-4(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
-          img.mt-4(src='@/assets/curso/tema1/2.svg', alt='Texto que describa la imagen')
-          img.mt-4.mb-5(src='@/assets/curso/tema1/3.svg', alt='Texto que describa la imagen')
+          .row
+            .col-lg-12
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/icom1.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--azul.bf1
+                  .p-4.mt-3
+                    p <strong>1.</strong> Se favorece la reducción de los riesgos.
+          .row
+            .col-lg-12
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/icom2.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--azul.bf1
+                  .p-4.mt-3
+                    p <strong>2.</strong>  Aumentan las posibilidades de éxito.
+          .row
+            .col-lg-12
+              .tarjeta-avatar-b.mb-5
+                .tarjeta-avatar-b__img
+                  img(src='@/assets/curso/tema1/icom3.svg' alt='AvatarTop')
+                .tarjeta.tarjeta--azul.bf1
+                  .p-4.mt-3
+                    p <strong>3.</strong>  Se facilita la identificación de factores que pueden afectar el logro los de objetivos propuestos.               
     .row.bg2.mt-4.justify-content-center
       p El proyecto puede, entonces, entenderse como ese conjunto de acciones interrelacionadas y coordinadas que permiten alcanzar un conjunto de objetivos, determinados previamente de forma precisa, los cuales pueden ser posteriormente verificados. (APC Colombia, 2020). 
       p Igualmente, un proyecto puede interpretarse como:
@@ -73,7 +95,30 @@
         .titulo-sexto.color-acento-botones.mt-5
           h5 Tabla 1 
           span Tipos de proyectos de acuerdo con los criterios de clasificación
-        img(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
+        .tabla-a.color-primario.mb-5 
+          table
+            thead
+              tr
+                th CRITERIO
+                th TIPO DE PROYECTO
+
+                th CARACTERÍSTICA
+            tbody
+              tr
+                td Celda 1
+                td Celda 2
+                td Celda 3
+
+              tr
+                td Celda 1
+                td Celda 2
+                td Celda 3
+
+              tr
+                td Celda 1
+                td Celda 2
+                td Celda 3
+
 
         p <i> Nota. Tomada de economipedia.com</i>
         .row.justify-content-center.mt-5
@@ -81,12 +126,12 @@
             .row
               .col-lg-6
                 .cajon.color-acento-contenido.p-4.mb-4
-                  .h5 ¡Atención!
+                  .h4 ¡Atención!
                   p En el caso de los proyectos productivos, es posible diferenciar dentro de ellos otras subclases, las cuales se definen de acuerdo con el sector económico al cual pertenece la iniciativa.
               
               .col-lg-6
                 .cajon.color-acento-contenido.p-4.mb-4
-                  .h5 ¡Importante!
+                  .h4 ¡Importante!
                   p Sin embargo, en términos generales, la estructura de un proyecto y los pasos que se deben tener en cuenta para su formulación son los mismos, independientemente del tipo o subclase de proyecto.
         
         separador      
@@ -124,4 +169,10 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: rgba(226,226,226,0.25)
+.col-md-6.col-lg.mb-5.mb-lg-0.t2 .tarjeta-avatar .tarjeta
+  @media screen and ( max-width: 420px)
+    width:280px!important
+</style>
