@@ -104,7 +104,7 @@
       p Con base en la información desarrollada hasta este punto, le ampliamos las etapas que se pueden definir para el ciclo de vida de un proyecto. Analice con atención cada etapa y sus fases, y procure llevar registro de lo más destacado en su libreta personal de apuntes:             
       SlyderB.mb-5.mt-5(:datos="datosSlyder")
       
-      .tarjeta.color-acento-contenido.p-4.mb-5.mt-5
+      .tarjeta.color-acento-contenido.p-4.mb-5.mt-5.sombra
         .row.justify-content-around.align-items-center
           .col-12.col-sm-12.col-lg-12.wix.mt-4.mb-4
             img(src="@/assets/curso/tema2/ico10.svg")
@@ -193,6 +193,4 @@ export default {
 <style lang="sass">
 .cajon.color-acento-contenido
   background-color: rgba(206,211,113,0.25)
-.slyder-b.mb-5.mt-5 .col-lg-8
-  width: 100%
 </style>

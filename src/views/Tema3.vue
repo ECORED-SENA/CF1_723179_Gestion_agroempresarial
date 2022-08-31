@@ -129,7 +129,7 @@
           .tarjeta.color-secundario
             .row.justify-content-center
               .col-lg-8
-                img(src='@/assets/curso/tema3/ico1.svg' alt='AvatarTop')
+                img.imaq(src='@/assets/curso/tema3/ico1.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-4 <strong>Geográfico y biofísico</strong>
 
@@ -138,7 +138,7 @@
           .tarjeta.color-secundario
             .row.justify-content-center
               .col-lg-6
-                img(src='@/assets/curso/tema3/ico2.svg' alt='AvatarTop')
+                img.imaq(src='@/assets/curso/tema3/ico2.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-5 <strong>Socioeconómico</strong>
 
@@ -147,7 +147,7 @@
           .tarjeta.color-secundario
             .row.justify-content-center
               .col-lg-6
-                img(src='@/assets/curso/tema3/ico3.svg' alt='AvatarTop')
+                img.imaq(src='@/assets/curso/tema3/ico3.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-4 <strong>Servicios e infraestructura</strong>
 
@@ -156,7 +156,7 @@
           .tarjeta.color-secundario
             .row.justify-content-center
               .col-lg-6
-                img(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
+                img.imaq(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-5 <strong>Socioculturales</strong>
 
@@ -165,7 +165,7 @@
           .tarjeta.color-secundario
             .row.justify-content-center
               .col-lg-6
-                img(src='@/assets/curso/tema3/ico5.svg' alt='AvatarTop')
+                img.imaq(src='@/assets/curso/tema3/ico5.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-4 <strong>Seguridad y convivencia</strong>
       .col-md-2.col-lg-2.mb-5.mb-lg-2
@@ -173,7 +173,7 @@
           .tarjeta.color-secundario
             .row.justify-content-center
               .col-lg-6
-                img(src='@/assets/curso/tema3/ico6.svg' alt='AvatarTop')
+                img.imaq(src='@/assets/curso/tema3/ico6.svg' alt='AvatarTop')
             .p-4
               p.text-center.textcolor1.mt-4 <strong>Articulación interinstitucional</strong>
     .row.justify-content-center.au
@@ -412,7 +412,37 @@
             img(src='@/assets/curso/tema3/21.svg' alt='AvatarTop')
     .titulo-sexto.color-acento-botones.mt-5
       h5 “¿Cómo se diseña este árbol?”.
-    img(src='@/assets/curso/tema3/45.svg' alt='AvatarTop')
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        thead
+          tr
+            th.wt1 Efecto indirecto
+            <th colspan="5"> Bajo nivel de ingresos, por venta de café mojado y de mala calidad. Pérdida de oportunidades de ingresos de los productores.</th>
+
+        tbody
+          tr
+            td <strong>Efecto directo</strong>
+            td Reducción en la demanda de mano de obra.
+            <td colspan="2" class="w12"> Disminución en el volumen de ventas de café.</td>
+            td Migración de los productores hacia otros sistemas productivos.  
+            td Pérdida de la competitividad frente a otros productores.
+
+          tr
+            td <strong>PROBLEMA CENTRAL</strong>
+            <td colspan="5"> Bajos rendimientos por hectárea de los cafetales pertenecientes a las familias cafeteras de la asociación El Turpial.</td>
+          tr
+            td <strong>Causa directa</strong>
+            td Deficientes prácticas de fertilización de cultivos.
+            td Deficiente manejo agronómico de las plantaciones. 
+            td Deficiente manejo en cosecha y postcosecha. 
+            td Cultivo de variedades susceptibles a la roya.
+            td Falta de procesos de renovación de cafetales envejecidos.
+          tr
+            td <strong>Causa indirecta</strong>
+            <td colspan="2"> Falta de recursos económicos y de asistencia técnica predial para el mejoramiento de los cultivos de café.</td>
+            <td colspan="3"> Falta de recursos para desarrollar procesos de renovación de cafetales.</td>
+
+
     .row.justify-content-center.mt-5
       .col-lg-7.mt-5
         p En la construcción del árbol de problemas, es fundamental reflexionar sobre:
@@ -519,7 +549,50 @@
     .titulo-sexto.color-acento-botones.mt-5
       h5 Tabla 3
       span Transformación del árbol de problemas en árbol de objetivos
-    img(src='@/assets/curso/tema3/25.svg' alt='AvatarTop')
+    .tabla-a.color-acento-botones.mb-5 
+      table
+        thead
+          tr
+            th 
+            th 
+            th 
+            th 
+            th 
+            th 
+
+        tbody
+          tr
+            <td rowspan="3"> Árbol de problemas</td>
+            td Efecto directo 01 Reducción en la demanda de mano de obra.
+            <td colspan="2"> Efecto directo 02<br> Disminución en el volumen de ventas de café.</td>
+            td Efecto directo 03<br>Migración de los productores hacia otros sistemas productivos.
+            td Efecto directo 04<br>Pérdida de la competitividad frente a otros productores.
+          tr
+            <td colspan="5" class="tc"> <strong>Problema central</strong><br><br>Bajos rendimientos por hectárea de los cafetales pertenecientes a las familias cafeteras de la asociación El Turpial</td>
+
+          tr
+            td Causa 01<br>Deficientes prácticas de fertilización de cultivos.
+            td Causa 02<br>Deficiente manejo agronómico de las plantaciones.
+            td Causa 03<br>Deficiente manejo en cosecha y postcosecha.
+            td Causa 04<br>Cultivo de variedades susceptibles a la roya.
+            td Causa 05<br>Falta de procesos de renovación de cafetales envejecidos.
+          tr
+            <td colspan="6"><img src='@/assets/curso/flecha.png' class="ttt"/></td>
+          tr
+            <td rowspan="3"> Árbol de objetivos</td>
+            td Fin directo 01<br>Aumento en la demanda de mano de obra.
+            <td colspan="2"> Fin directo 02<br> Aumento en el volumen de ventas de café.</td>
+            td Fin directo 03<br>Permanencia de los productores en sus sistemas productivos.
+            td Fin directo 04<br>Aumento de la competitividad frente a otros productores.
+          tr
+            <td colspan="5" class="tc"> <strong>Objetivo general</strong><br><br>Mejorar los rendimientos por hectárea de los cafetales pertenecientes a las familias cafeteras de la asociación El Turpial.</td>
+
+          tr
+            td Objetivo específico 01<br>Mejorar las prácticas de fertilización de cultivos.
+            td Objetivo específico 02<br>Mejorar el manejo agronómico de las plantaciones.
+            td Objetivo específico 03<br>Mejorar el manejo en cosecha y postcosecha.
+            td Objetivo específico 04<br>Cultivo de variedades resistentes a la roya.
+            td Objetivo específico 05<br>Desarrollo de procesos de renovación de cafetales envejecidos. 
     p.mt-5 Le presentamos algunos de los errores más comunes que suelen encontrarse en la construcción de los objetivos generales y específicos de los proyectos:
     SlyderB.mb-5.mt-5.b.p-4(:datos="datosSlyder2")
     separador
@@ -543,9 +616,9 @@
 
         tbody
           tr
-            td
+            td.p-4
               p.mt-5.mb-5 Bajos rendimientos por hectárea de los cafetales pertenecientes a las familias cafeteras de la asociación El Turpial.
-            ul.lista-ul.mt-5.mb-5
+            ul.lista-ul.mt-5.mb-5.p-4
               li 
                 i.fas.fa-angle-right.color-acento-contenido
                 p Renovar el 100 % de los cafetales de las familias cafeteras de la asociación El Turpial. 
@@ -611,7 +684,7 @@
         .row
           .col-md-6.col-lg-6.mb-5.mb-lg-6
             .tarjeta-avatar.aa1
-              .tarjeta.color-secundario
+              .tarjeta.color-secundario.sombra
                 .row.justify-content-center
                   .col-lg-6
                     img.imaq(src='@/assets/curso/tema3/ico14.svg' alt='AvatarTop')
@@ -620,7 +693,7 @@
 
           .col-md-6.col-lg-6.mb-5.mb-lg-6
             .tarjeta-avatar.aa1
-              .tarjeta.color-secundario
+              .tarjeta.color-secundario.sombra
                 .row.justify-content-center
                   .col-lg-6
                     img.imaq(src='@/assets/curso/tema3/ico15.svg' alt='AvatarTop')
@@ -629,14 +702,14 @@
         .row
           .col-md-6.col-lg-6.mb-5.mb-lg-6
             .tarjeta-avatar.aa
-              .tarjeta.color-acento-botones1
+              .tarjeta.color-acento-botones1.sombra
                 .p-4
                   h5 Logros específicos
                   p.mt-5 Es necesario traducirlos a logros específicos, lo que implica la formulación de metas y el establecimiento de una serie de actividades, en orden cronológico, que deben darse dentro de unos plazos establecidos.
 
           .col-md-6.col-lg-6.mb-5.mb-lg-6
             .tarjeta-avatar.aa
-              .tarjeta.color-acento-botones1
+              .tarjeta.color-acento-botones1.sombra
                 .p-4
                   h5 Detallar actividades
                   p.mt-5 Es así como se debe determinar con detalle qué actividades se llevarán a cabo para alcanzar los objetivos y las metas propuestas. 
@@ -646,7 +719,70 @@
         .titulo-sexto.color-acento-botones.mt-5
           h5 Tabla 5
           span Matriz de definición de actividades por objetivos específicos del proyecto 
-        img(src='@/assets/curso/tema3/31.svg' alt='AvatarTop')
+        .tabla-a.color-acento-botones.mb-5 
+          table
+            thead
+              tr
+                <th colspan="5"> Definición de actividades por objetivo específico del proyecto</th>
+
+            tbody
+              tr
+                <td colspan="5" class="tc"> Objetivo específico: mejorar las prácticas de fertilización de cultivos </td>
+
+              tr
+                td <strong>Actividades</strong>
+                td <strong>Insumos - servicios</strong>
+                td <strong>Costos (en pesos)</strong>
+                td <strong>Fecha inicio </strong>
+                td <strong>Fecha finalización</strong>
+              tr
+                td Realización de análisis de suelos. 
+
+                td Análisis de suelos
+
+                td 20.000.000
+
+                td 01-04-2022
+
+                td 01-05-2022
+              tr
+                td Apoyo a la elaboración de planes de fertilización. 
+                td Asistencia técnica agrícola
+                td 8.000.000
+                td 01-05-2022
+                td 01-08-2022
+              tr
+                td Asistencia técnica agrícola.
+
+                td Asistencia técnica agrícola
+                td 6.000.000
+
+                td 01-09-2022
+
+                td 01-12-2022
+              tr
+                td Apoyo a la elaboración de planes de fertilización. 
+                td Asistencia técnica agrícola
+                td 8.000.000
+                td 01-05-2022
+                td 01-08-2022
+              tr
+                td Capacitación en fertilización de cultivos.  
+                td Alquiler equipos – transporte – logística capacitación
+                td 2.000.000
+                td 03-06-2022
+                td 05-06-2022
+              tr
+                td Apoyo para la adquisición de fertilizantes y enmiendas.   
+                td Fertilizantes, enmiendas, fertilizantes foliares
+                td 150.000.000
+                td 01-09-2022
+                td 31-12-2022
+              tr
+                <td colspan="5" class="tc"> TOTAL  COSTOS                                     186.000.000 </td>
+
+
+        
         p.mt-4.text-small Nota. Adaptado de Secretaría Distrital de Planeación, Alcaldía Mayor de Bogotá (2018).
     .row.justify-content-center.mt-5
       .col-lg-8
@@ -677,8 +813,82 @@
     .row.bg5  
       .titulo-sexto.color-acento-botones.mt-5
         h5.text-small Tabla 6
-        span.text-small Ejemplo de cronograma basado en el diagrama de Gantt    
-      img(src='@/assets/curso/tema3/32.svg' alt='AvatarTop')
+        span.text-small Ejemplo de cronograma basado en el diagrama de Gantt   
+      .tabla-a.color-acento-botones.mb-5 
+        table
+          thead
+            tr
+              th ACTIVIDADES
+              th.wt2 MES 04
+              th.wt2 MES 05
+              th.wt2 MES 06
+              th.wt2 MES 07
+              th.wt2 MES 08
+              th.wt2 MES 09
+              th.wt2 MES 10
+              th.wt2 MES 11
+              th.wt2 MES 12
+          tbody
+            tr
+              td Realización de análisis de suelos.
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/>
+              td 
+              td 
+              td 
+              td 
+              td 
+              td 
+              td 
+              td 
+
+            tr
+              td Apoyo a la elaboración de planes de fertilización. 
+              td 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/>
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td 
+              td 
+              td 
+              td 
+              td 
+
+            tr
+              td Asistencia técnica agrícola.
+              td 
+              td 
+              td 
+              td  
+              td 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td 
+    
+            tr
+              td Capacitación en fertilización de cultivos.
+              td 
+              td 
+              td.p1 <img src='@/assets/curso/3.png' class="ttt2"/> 
+              td  
+              td 
+              td
+              td 
+              td 
+              td 
+  
+            tr
+              td Apoyo para la adquisición de fertilizantes y enmiendas.
+              td 
+              td 
+              td 
+              td 
+              td 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              td.p1 <img src='@/assets/curso/2.png' class="ttt1"/> 
+              
       .row.justify-content-center.mt-5
         .col-lg-6
           p Con base en este cronograma de actividades:
@@ -730,7 +940,73 @@
       .titulo-sexto.color-acento-botones.mt-5
         h5.text-small Tabla 7
         span.text-small Ejemplo de formato de estimación de costos de un proyecto
-      img(src='@/assets/curso/tema3/35.svg' alt='AvatarTop')
+      .tabla-a.color-acento-botones.mb-5 
+        table
+          thead
+            tr
+              th Objetivo específico
+              th Actividades
+              th Insumos - servicios
+              th Unidad
+              th Cantidad
+              th Costo unitario
+              th Costos (en pesos)
+          tbody
+            tr
+              <td rowspan="6" class="tc"><strong>Mejorar las prácticas de fertilización de cultivos.</strong></td>
+
+            tr
+              td Realización de análisis de suelos. 
+              td Análisis de suelos
+              td Análisis
+              td 100.000
+
+              td 200.000
+
+              td 20.000.000
+
+
+            tr
+              td Apoyo a la elaboración de planes de fertilización. 
+              td Asistencia técnica agrícola
+              td Asesoría
+              td 100.000
+
+              td 80.000
+
+              td 8.000.000
+
+            tr
+              td Asistencia técnica agrícola.
+              td Asistencia técnica agrícola
+              td Visita en finca
+              td 100.000
+
+              td 60.000
+
+              td 6.000.000
+
+            tr
+              td Capacitación en fertilización de cultivos.
+              td Alquiler equipos – transporte – logística capacitación
+              td Hora
+              td 2
+
+              td 1.000.000
+
+              td 2.000.000
+
+            tr
+              td Apoyo para la adquisición de fertilizantes y enmiendas. 
+              td Análisis de suelos
+              td Kit de fertilización
+              td 1.500.000
+
+              td 100
+
+              td 150.000.000
+            tr
+              <td colspan="7">TOTAL COSTOS               186.000.000</td>
       .row.justify-content-center.mb-3.mt-5
         .col-lg-8
           .cajon.color-acento-contenido.p-4.mb-4
@@ -888,7 +1164,7 @@
       .row.mt-5
         .col-lg-6
           img(src='@/assets/curso/tema3/44.svg' alt='AvatarTop')
-        .col-lg-6.mt-2
+        .col-lg-6.mt-4
           .row.mb-5
             .col-md-12.mb-5.mb-md-0
               LineaTiempoD.color-primario
@@ -1079,4 +1355,13 @@ export default {
   border-color:#CED371!important
 .tarjeta.color-secundario
   background-color: #E1E4A8
+.texto1
+  @media screen and ( max-width: 420px)
+    z-index: 0
+.au
+  @media screen and ( max-width: 420px)
+    margin-left: 0px
+.tarjeta-avatar .tarjeta
+  @media screen and ( max-width: 420px)
+    width: 100%
 </style>

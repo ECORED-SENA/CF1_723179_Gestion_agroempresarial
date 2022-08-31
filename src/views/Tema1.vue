@@ -9,7 +9,7 @@
       h1 Proyectos
     .row.bg1
       p El desarrollo e implementación de cualquier idea, bien sea la puesta en marcha de una alternativa de negocio, la solución de alguna problemática que afecte a una comunidad, la satisfacción de alguna necesidad de un sector de la población o la construcción de una obra de infraestructura, necesariamente, debe pasar por un riguroso proceso de planificación y análisis.
-      img(src='@/assets/curso/tema1/i1.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/tema1/i1.jpg', alt='Texto que describa la imagen')
       .row.justify-content-center.mt-5
         .col-lg-6
         
@@ -34,7 +34,7 @@
             .col-lg-12
               .tarjeta-avatar-b.mb-5
                 .tarjeta-avatar-b__img
-                  img(src='@/assets/curso/tema1/icom3.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/tema1/icom3.png' alt='AvatarTop')
                 .tarjeta.tarjeta--azul.bf1
                   .p-4.mt-3
                     p <strong>3.</strong>  Se facilita la identificación de factores que pueden afectar el logro los de objetivos propuestos.               
@@ -99,26 +99,81 @@
           table
             thead
               tr
-                th CRITERIO
-                th TIPO DE PROYECTO
-
+                th.wt1 CRITERIO
+                th.wt1 TIPO DE PROYECTO
                 th CARACTERÍSTICA
             tbody
               tr
-                td Celda 1
-                td Celda 2
-                td Celda 3
+                <td rowspan="4" class="tc"> Financiación</td>
+                td.text-center Públicos
+                td Se financian a través de recursos públicos o estatales. 25
+
 
               tr
-                td Celda 1
-                td Celda 2
-                td Celda 3
+                td.text-center Privados
+
+
+                td Utilizan recursos provenientes del sector privado.
+
 
               tr
-                td Celda 1
-                td Celda 2
-                td Celda 3
+                td.text-center Mixtos
+                td Combinan recursos de diversas fuentes, públicas y privadas.
 
+              tr
+                td.text-center Cooperación
+                td Usan recursos provenientes de donaciones o subvenciones de entidades cooperantes. 
+
+              tr
+                <td rowspan="4" class="tc"> Disciplina</td>
+                td.text-center Informáticos
+                td Se dirigen al desarrollo de herramientas de software.
+
+              tr
+                td.text-center Empresariales
+                td Constitución o conformación de empresas para un fin determinado. 
+
+              tr
+                td.text-center Productivos
+                td Enfocados en la producción de algún bien o la prestación de un servicio en particular. 
+
+              tr
+                td.text-center Infraestructura
+                td Desarrollo de obras de infraestructura para atender necesidades de tipo público o privado.
+
+              tr
+                <td rowspan="2" class="tc"> Complejidad</td>
+                td.text-center Simples
+
+                td Involucran pocos recursos y no integran demasiados componentes. Tienen una escala local.
+
+              tr
+                td.text-center Complejos
+                td Alta demanda de recursos, muchos componentes. Se realizan a escala regional o nacional. 
+
+              tr
+                <td rowspan="6" class="tc"> Finalidad</td>
+                td.text-center Educativos
+                td Proyectos para la transferencia de conocimientos o tecnologías. 
+
+              tr
+                td.text-center Sociales
+                td Buscan impactos positivos en un sector de la sociedad en particular. 
+
+              tr
+                td.text-center Comunitarios
+                td Se desarrollan para atender las necesidades de una comunidad determinada. 
+              tr
+                td.text-center Investigación
+                td Estos buscan resolver problemas de investigación en diversas áreas del conocimiento. 
+
+              tr
+                td.text-center Producción
+                td Obtención de bienes o la prestación de servicios. 
+
+              tr
+                td.text-center Culturales
+                td Promoción, protección y/o divulgación de una expresión cultural de una comunidad o región. 
 
         p <i> Nota. Tomada de economipedia.com</i>
         .row.justify-content-center.mt-5
@@ -175,4 +230,13 @@ export default {
 .col-md-6.col-lg.mb-5.mb-lg-0.t2 .tarjeta-avatar .tarjeta
   @media screen and ( max-width: 420px)
     width:280px!important
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #D2E1F1!important
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #F8F8F8!important
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #DDEDCA!important
+.tarjeta-avatar
+  @media screen and ( max-width: 420px)
+    padding-left: 10px
 </style>
