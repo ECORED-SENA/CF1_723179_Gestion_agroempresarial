@@ -8,8 +8,8 @@
         span
           i.fas.fa-info
       h1 Introducción
-    p Le damos la bienvenida al componente formativo “Bases técnicas para la formulación de proyectos”; comience esta experiencia visualizando con atención el recurso que se muestra enseguida. ¡Adelante!
-    figure.mb-5
+    p(data-aos="fade-down") Le damos la bienvenida al componente formativo “Bases técnicas para la formulación de proyectos”; comience esta experiencia visualizando con atención el recurso que se muestra enseguida. ¡Adelante!
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/DpSOzr4zYu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>

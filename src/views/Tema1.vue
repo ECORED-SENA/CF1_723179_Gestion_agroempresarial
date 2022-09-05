@@ -9,7 +9,7 @@
       h1 Proyectos
     .row.bg1
       p El desarrollo e implementación de cualquier idea, bien sea la puesta en marcha de una alternativa de negocio, la solución de alguna problemática que afecte a una comunidad, la satisfacción de alguna necesidad de un sector de la población o la construcción de una obra de infraestructura, necesariamente, debe pasar por un riguroso proceso de planificación y análisis.
-      img(src='@/assets/curso/tema1/i1.jpg', alt='Texto que describa la imagen')
+      img(data-aos="fade-down")(src='@/assets/curso/tema1/i1.jpg', alt='Texto que describa la imagen')
       .row.justify-content-center.mt-5
         .col-lg-6
         
@@ -238,5 +238,5 @@ export default {
   background-color: #DDEDCA!important
 .tarjeta-avatar
   @media screen and ( max-width: 420px)
-    padding-left: 10px
+    padding-left: 35px
 </style>
