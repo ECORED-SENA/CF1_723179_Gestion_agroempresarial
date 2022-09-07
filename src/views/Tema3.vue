@@ -129,10 +129,10 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.sombra
-              .row.justify-content-center
+              .row.alig
                 .col-lg-9.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico1.svg' alt='AvatarTop')
-              .row.justify-content-center
+              .row.alig
                 .col-lg-9.mt-4  
                   h5.text-center Geográfico y biofísico
             .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -143,10 +143,10 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.sombra
-              .row.justify-content-center
+              .row.alig
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico2.svg' alt='AvatarTop')
-              .row.justify-content-center
+              .row.alig
                 .col-lg-7.mt-4  
                   h5.text-center Socioeconómico
             .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -157,10 +157,10 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.sombra
-              .row.justify-content-center
+              .row.alig
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico3.svg' alt='AvatarTop')
-              .row.justify-content-center
+              .row.alig
                 .col-lg-7.mt-4  
                   h5.text-center Servicios e infraestructura
             .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -171,10 +171,10 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.sombra
-              .row.justify-content-center
+              .row.alig
                 .col-lg-8.mt-5
-                  img.imaq(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
-              .row.justify-content-center
+                  img.imaq2(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
+              .row.alig
                 .col-lg-7.mt-4  
                   h5.text-center Socioculturales
             .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -185,10 +185,10 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.sombra
-              .row.justify-content-center
+              .row.alig
                 .col-lg-8.mt-5
-                  img.imaq(src='@/assets/curso/tema3/ico5.svg' alt='AvatarTop')
-              .row.justify-content-center
+                  img.imaq2(src='@/assets/curso/tema3/ico5.svg' alt='AvatarTop')
+              .row.alig
                 .col-lg-7.mt-4  
                   h5.text-center Seguridad y convivencia
             .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -199,10 +199,10 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.sombra
-              .row.justify-content-center
+              .row.alig
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico6.svg' alt='AvatarTop')
-              .row.justify-content-center
+              .row.alig
                 .col-lg-7.mt-4  
                   h5.text-center Articulación interinstitucional
             .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -482,10 +482,10 @@
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.sombra
-                  .row.justify-content-center
+                  .row.alig
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico11.svg' alt='AvatarTop')
-                  .row.justify-content-center
+                  .row.alig
                     .col-lg-9.mt-5 
                       h5.text-center ¿En qué aspectos mejora la situación actual?
 
@@ -497,10 +497,10 @@
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.sombra
-                  .row.justify-content-center
+                  .row.alig
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico12.svg' alt='AvatarTop')
-                  .row.justify-content-center
+                  .row.alig
                     .col-lg-10.mt-5 
                       h5.text-center ¿Por qué se considera que esa es la solución pertinente?
                 .tarjeta-flip__contenido.p-4.p-xl-4.sombra
@@ -511,10 +511,10 @@
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
                 .tarjeta-flip__img.sombra
-                  .row.justify-content-center
+                  .row.alig
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico13.svg' alt='AvatarTop')
-                  .row.justify-content-center
+                  .row.alig
                     .col-lg-10.mt-5 
                       h5.text-center ¿Cuál es el valor agregado o aporte del proyecto?
                 .tarjeta-flip__contenido.p-4.p-xl-4.sombra
