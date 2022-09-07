@@ -128,84 +128,84 @@
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.sombra
               .row.justify-content-center
                 .col-lg-9.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico1.svg' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-9.mt-4  
                   h5.text-center Geográfico y biofísico
-            .tarjeta-flip__contenido.p-4.p-xl-4
+            .tarjeta-flip__contenido.p-4.p-xl-4.sombra
               h5.text-center Geográfico y biofísico
               p.text-center Clima, accidentes geográficos, suelos, recursos naturales, problemáticas ambientales, hidrografía.
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.sombra
               .row.justify-content-center
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico2.svg' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.mt-4  
                   h5.text-center Socioeconómico
-            .tarjeta-flip__contenido.p-4.p-xl-4
+            .tarjeta-flip__contenido.p-4.p-xl-4.sombra
               h5.text-center Socioeconómico
               p.text-center Fuentes de empleo, ingresos, demografía, actividades económicas, productividad, usos del suelo, acceso a medios productivos.
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.sombra
               .row.justify-content-center
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico3.svg' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.mt-4  
                   h5.text-center Servicios e infraestructura
-            .tarjeta-flip__contenido.p-4.p-xl-4
+            .tarjeta-flip__contenido.p-4.p-xl-4.sombra
               h5.text-center Servicios e infraestructura
               p.text-center Vías, red eléctrica, saneamiento básico, comunicación, agua potable, sistemas de riego, medios de transporte, costos de transporte.
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.sombra
               .row.justify-content-center
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico4.svg' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.mt-4  
                   h5.text-center Socioculturales
-            .tarjeta-flip__contenido.p-4.p-xl-4
+            .tarjeta-flip__contenido.p-4.p-xl-4.sombra
               h5.text-center Socioculturales
               p.text-center Usos y costumbres, tradiciones, organizaciones comunitarias, liderazgos, participación ciudadana, agremiaciones.
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.sombra
               .row.justify-content-center
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico5.svg' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.mt-4  
                   h5.text-center Seguridad y convivencia
-            .tarjeta-flip__contenido.p-4.p-xl-4
+            .tarjeta-flip__contenido.p-4.p-xl-4.sombra
               h5.text-center Seguridad y convivencia
               p.text-center Presencia de actores armados, inseguridad, violencia, violencia doméstica, respuesta institucional, redes de apoyo.
       .col-sm-6.col-xl-2.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img
+            .tarjeta-flip__img.sombra
               .row.justify-content-center
                 .col-lg-8.mt-5
                   img.imaq(src='@/assets/curso/tema3/ico6.svg' alt='AvatarTop')
               .row.justify-content-center
                 .col-lg-7.mt-4  
                   h5.text-center Articulación interinstitucional
-            .tarjeta-flip__contenido.p-4.p-xl-4
+            .tarjeta-flip__contenido.p-4.p-xl-4.sombra
               h5.text-center Articulación interinstitucional
               p.text-center Presencia institucional, proyectos y programas desarrollados, cooperación internacional, convenios y contratos, gobernanza.
     p.mt-4 Para que la información recopilada en el diagnóstico sea de utilidad para el proceso de estructuración del proyecto, es necesario que esta sea principalmente de tipo cuantitativo, de modo que sea más sencillo agrupar datos, obtener estadísticas y observar tendencias que den sustento a las observaciones realizadas por parte del equipo estructurador. 
@@ -481,7 +481,7 @@
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
+                .tarjeta-flip__img.sombra
                   .row.justify-content-center
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico11.svg' alt='AvatarTop')
@@ -489,35 +489,35 @@
                     .col-lg-9.mt-5 
                       h5.text-center ¿En qué aspectos mejora la situación actual?
 
-                .tarjeta-flip__contenido.p-4.p-xl-4
+                .tarjeta-flip__contenido.p-4.p-xl-4.sombra
                   h5 ¿En qué aspectos mejora la situación actual?
                   p.mt-4 Identificar los aspectos puntuales en los cuales habrá mejoras con respecto a la situación inicial. Se debe tener información confiable, en lo posible, cuantificable, sobre los indicadores que se afectarán. Puede darse información sobre aumento de productividad, mejoramiento de la disponibilidad de algún bien o servicio.
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
+                .tarjeta-flip__img.sombra
                   .row.justify-content-center
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico12.svg' alt='AvatarTop')
                   .row.justify-content-center
                     .col-lg-10.mt-5 
                       h5.text-center ¿Por qué se considera que esa es la solución pertinente?
-                .tarjeta-flip__contenido.p-4.p-xl-4
+                .tarjeta-flip__contenido.p-4.p-xl-4.sombra
                   h5 ¿Por qué se considera que esa es la solución pertinente?
                   p.mt-4 Se debe tener claridad sobre las alternativas que se tenían para solucionar el problema o satisfacer la necesidad, y por qué la escogida resultó ser la más viable. Esta información se debe argumentar con base en la información recopilada en el diagnóstico.
           .col-sm-6.col-xl-4.mb-4.mb-xl-0
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
+                .tarjeta-flip__img.sombra
                   .row.justify-content-center
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico13.svg' alt='AvatarTop')
                   .row.justify-content-center
                     .col-lg-10.mt-5 
                       h5.text-center ¿Cuál es el valor agregado o aporte del proyecto?
-                .tarjeta-flip__contenido.p-4.p-xl-4
+                .tarjeta-flip__contenido.p-4.p-xl-4.sombra
                   h5 ¿Cuál es el valor agregado o aporte del proyecto?
 
                   p.mt-4 En la justificación, se debe mencionar qué aspectos mejorarán con la implementación del proyecto, no solo en lo relacionado con el logro de los objetivos, sino con los impactos adicionales que su implementación tendrá sobre una comunidad, un territorio o un segmento de la población.
@@ -674,7 +674,7 @@
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
+                .tarjeta-flip__img.sombra
                   .row.justify-content-center
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico14.svg' alt='AvatarTop')
@@ -682,7 +682,7 @@
                     .col-lg-9.mt-5 
                       h5.text-center Logros específicos
 
-                .tarjeta-flip__contenido.p-4.p-xl-4
+                .tarjeta-flip__contenido.p-4.p-xl-4.sombra
                   h5 Logros específicos
 
                   p.mt-4 Es necesario traducirlos a logros específicos, lo que implica la formulación de metas y el establecimiento de una serie de actividades, en orden cronológico, que deben darse dentro de unos plazos establecidos.
@@ -690,14 +690,14 @@
             .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
               .indicador--hover(v-if="indicadorTarjetaFlip")
               .tarjeta-flip__contenedor
-                .tarjeta-flip__img
+                .tarjeta-flip__img.sombra
                   .row.justify-content-center
                     .col-lg-6.mt-5
                       img.imaq(src='@/assets/curso/tema3/ico15.svg' alt='AvatarTop')
                   .row.justify-content-center
                     .col-lg-9.mt-5 
                       h5.text-center Detallar actividades
-                .tarjeta-flip__contenido.p-4.p-xl-4
+                .tarjeta-flip__contenido.p-4.p-xl-4.sombra
                   h5 Detallar actividades
                   p.mt-4 Es así como se debe determinar con detalle qué actividades se llevarán a cabo para alcanzar los objetivos y las metas propuestas.
     p Le presentamos la matriz de definición de actividades por objetivo, la cual favorece la planeación de las actividades en la operación del proyecto: 

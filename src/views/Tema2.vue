@@ -8,7 +8,7 @@
       h1 Ciclo de vida de los proyectos
     .row.bg3
       .row.justify-content-center
-        .col-lg-6.mt-5
+        .col-lg-6
           p.mt-5.mb-4 El ciclo de vida de un proyecto siempre se da de forma sistemática, es decir, las etapas que conlleva se interrelacionan unas con otras. De acuerdo con Mondragón (2017), en términos generales, un proyecto tiene tres fases bien definidas: preinversión, inversión y operación.
           p.s1.p-4 El ciclo de vida del proyecto se asemeja a un sistema y este se relaciona con las entradas, la transformación y la entrega de productos o salidas, considerando las entradas como las necesidades u oportunidades de negocio. 
           p.mt-4 Analice con atención la siguiente gráfica; asimile más y mejor el ciclo de vida de un proyecto, identificando sus tres grandes fases:
@@ -193,4 +193,5 @@ export default {
 <style lang="sass">
 .cajon.color-acento-contenido
   background-color: rgba(206,211,113,0.25)
+.titulo-principal.color-acento-contenido
 </style>
