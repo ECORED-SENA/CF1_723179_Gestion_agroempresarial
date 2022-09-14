@@ -1023,7 +1023,7 @@
       .row.justify-content-center.mt-5
         .col-lg-4.bg6
           p.text-white.text-center <strong>Meta de resultado</strong>
-          p.text-white.text-center.mt-5 <strong>Meta de producto</strong>
+          p.text-white.text-center.mt-4 <strong>Meta de producto</strong>
         .col-lg-1
         .col-lg-7
           p.ahs.p-3 Incrementar en un 20 % la productividad de los cafetales de las familias vinculadas al proyecto. 
