@@ -10,7 +10,7 @@
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="('https://drive.google.com/file/d/1jjfgm64auSItQ7Y9HkLbq0aLHKcIio0B/view')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('downloads/sintesis/sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

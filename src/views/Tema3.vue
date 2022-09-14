@@ -656,7 +656,7 @@
                 
                 p(numero="2" titulo="Aceptabilidad por parte de las comunidades") Debe ser una alternativa que vaya en sintonía con los usos y costumbres de una comunidad en particular. 
                 
-                p(numero="3" titulo="Financiamiento requeridos frente al disponible") Es importante verificar si la disponibilidad de recursos es suficiente para cubrir la alternativa seleccionada. 
+                p(numero="3" titulo="Financiamiento requerido frente al disponible") Es importante verificar si la disponibilidad de recursos es suficiente para cubrir la alternativa seleccionada. 
                 
                 p(numero="4" titulo="Capacidad institucional") Establecer si la entidad operadora está en capacidad de desarrollar la alternativa seleccionada. 
                 p(numero="5" titulo="Impacto ambiental") Se recomienda implementar las actividades que generen el menor impacto ambiental posible. 
@@ -799,8 +799,8 @@
     p.mt-5 Junto con la definición de las actividades, es necesario elaborar un cronograma de actividades por medio del cual sea posible realizar, posteriormente, el seguimiento a la ejecución. El modelo de cronograma más empleado en la gestión de proyectos es el diagrama de Gantt (Unesco 2016), el cual consiste en un cuadro de doble entrada en cuya columna izquierda se anotan las actividades en secuencia temporal y a la derecha se dibujan unas barras que representan su duración, como se presenta en el siguiente ejemplo:
     .row.bg5  
       .titulo-sexto.color-acento-botones.mt-5
-        h5.text-small Tabla 6
-        span.text-small Ejemplo de cronograma basado en el diagrama de Gantt   
+        h5 Tabla 6
+        span Ejemplo de cronograma basado en el diagrama de Gantt   
       .tabla-a.color-acento-botones.mb-5 
         table
           thead
@@ -925,8 +925,8 @@
                     p.text-center.textcolor1.text-center <strong>Estimar:</strong> los costos en los que se debe incurrir para poder realizarlas.
       p Para el ejercicio de planificación, se puede emplear un formato diseñado para tal efecto, como el que se muestra a continuación:
       .titulo-sexto.color-acento-botones.mt-5
-        h5.text-small Tabla 7
-        span.text-small Ejemplo de formato de estimación de costos de un proyecto
+        h5 Tabla 7
+        span Ejemplo de formato de estimación de costos de un proyecto
       .tabla-a.color-acento-botones.mb-5 
         table
           thead
@@ -1011,7 +1011,7 @@
                 h5.mb-1.tw Flujo Neto De Caja E Indicadores De Decisión.
                 p.text-small.tw Amplíe sus conocimientos y los conceptos trabajados hasta este punto.
               .col-sm-auto
-                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download
     separador
@@ -1022,9 +1022,10 @@
     .row.bg7
       .row.justify-content-center.mt-5
         .col-lg-4.bg6
-          p.text-white.text-center.mt-3 <strong>Meta de resultado</strong>
+          p.text-white.text-center <strong>Meta de resultado</strong>
           p.text-white.text-center.mt-5 <strong>Meta de producto</strong>
-        .col-lg-8
+        .col-lg-1
+        .col-lg-7
           p.ahs.p-3 Incrementar en un 20 % la productividad de los cafetales de las familias vinculadas al proyecto. 
           p.ahs.p-3 Entrega de 100 kits de fertilización para igual número de familias cafeteras vinculadas al proyecto. 
       p.mt-5 Por su parte, un indicador es una representación establecida mediante la relación entre dos o más variables, a partir del cual se registra, procesa y presenta información relevante, con el fin de medir el avance o retroceso en el logro de un determinado objetivo, en un periodo de tiempo determinado (APC Colombia 2020). 
@@ -1066,8 +1067,8 @@
         .col-lg-5
           img(src="@/assets/curso/tema3/42.png")
       .titulo-sexto.color-acento-botones.mt-5
-        h5.text-small Tabla 8
-        span.text-small Principales tipos de indicadores empleados en la formulación de proyectos
+        h5 Tabla 8
+        span Principales tipos de indicadores empleados en la formulación de proyectos
       .tabla-a.color-secundario.mb-5 
         table
           thead
@@ -1113,9 +1114,9 @@
                   p.mb-5 Estos pueden corresponder a información primaria (encuestas, entrevistas, visitas, registros contables, informes de auditoría) o a fuentes secundarias (estadísticas, estudios, informes, publicaciones, entre otras).
       p Analice el ejemplo que se presenta en el siguiente esquema:           
       .titulo-sexto.color-acento-botones.mt-5
-        h5.text-small Tabla 9
+        h5 Tabla 9
 
-        span.text-small Ejemplo de medios de verificación respecto a los indicadores propuestos
+        span Ejemplo de medios de verificación respecto a los indicadores propuestos
       .tabla-a.color-secundario.mb-5 
         table
           thead
@@ -1167,8 +1168,8 @@
       p.mt-5 Una vez definidos los supuestos, se da con ello por concluida la etapa de formulación del proyecto, la cual se evidencia a través de la construcción del documento de perfil del proyecto y el diligenciamiento de la matriz de marco lógico.
       p En el siguiente ejemplo, identifique cómo se agrupa la información del proyecto en una Matriz de Marco Lógico (MML):
       .titulo-sexto.color-acento-botones.mt-5
-        h5.text-small Tabla 10
-        span.text-small Ejemplo de diligenciamiento de la MML de un proyecto agrícola
+        h5 Tabla 10
+        span Ejemplo de diligenciamiento de la MML de un proyecto agrícola
       .tabla-a.color-secundario.mb-5 
         table
           thead
@@ -1268,7 +1269,7 @@ export default {
       {
         titulo: 'Errores en la construcción de objetivos generales',
         texto:
-          'Errores en la construcción de objetivos generales <br> - Incluir alternativas de solución, por ejemplo: "mediante", "a través de", "por medio de". <br> - Confundir el objetivo general con algún producto que se desea entregar, por ejemplo: "construcción de beneficiaderos", "entrega de despulpadoras". <br> - Describir el objetivo como una acción parcial o desarticulada, por ejemplo: "adquirir 1.000 bultos de fertilizante". <br>- Incluir los fines o alcances del proyecto: "para mejorar la calidad de vida, para mejorar la productividad". ',
+          '- Incluir alternativas de solución, por ejemplo: "mediante", "a través de", "por medio de". <br> - Confundir el objetivo general con algún producto que se desea entregar, por ejemplo: "construcción de beneficiaderos", "entrega de despulpadoras". <br> - Describir el objetivo como una acción parcial o desarticulada, por ejemplo: "adquirir 1.000 bultos de fertilizante". <br>- Incluir los fines o alcances del proyecto: "para mejorar la calidad de vida, para mejorar la productividad".<br>-Exagerar en la descripción del objetivo general. ',
         imagen: require('@/assets/curso/tema3/26.png'),
         // leyendaImagen: 'Leyenda de la imagen',
       },

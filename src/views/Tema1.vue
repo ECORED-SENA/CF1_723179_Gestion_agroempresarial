@@ -37,7 +37,7 @@
                   img(src='@/assets/curso/tema1/icom3.png' alt='AvatarTop')
                 .tarjeta.tarjeta--azul.bf1
                   .p-4.mt-3
-                    p <strong>3.</strong>  Se facilita la identificación de factores que pueden afectar el logro los de objetivos propuestos.               
+                    p <strong>3.</strong>  Se facilita la identificación de factores que pueden afectar el logro de los objetivos propuestos.               
     .row.bg2.mt-4.justify-content-center
       p El proyecto puede, entonces, entenderse como ese conjunto de acciones interrelacionadas y coordinadas que permiten alcanzar un conjunto de objetivos, determinados previamente de forma precisa, los cuales pueden ser posteriormente verificados. (APC Colombia, 2020). 
       p Igualmente, un proyecto puede interpretarse como:
